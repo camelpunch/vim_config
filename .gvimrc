@@ -9,3 +9,5 @@ if &background == "dark"
     hi normal guibg=black
 endif
 
+highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/

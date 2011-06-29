@@ -54,5 +54,3 @@ helptags ~/.vim/doc
 let g:surround_45 = "<% \r %>"
 let g:surround_61 = "<%= \r %>"
 
-highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
-autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
