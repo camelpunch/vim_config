@@ -24,7 +24,7 @@ set bg=dark
 
 map <F2> :tabe 
 map <F3> :Gcd<CR> 
-map <F4> :w<CR>mz?Scenario: <CR>2wv$hy:call RunScenario('<D-v>')<CR>`z
+map <F4> :w<CR>mz?Scenario<CR>/:<CR>wv$hy:call RunScenario('<D-v>')<CR>`z
 imap <F4> <ESC>:w<CR>mz?Scenario: <CR>2wv$hy:call RunScenario('<D-v>')<CR>`z
 map <F5> oThen show me the page<ESC>
 map <F8> :Gdiff<CR>
