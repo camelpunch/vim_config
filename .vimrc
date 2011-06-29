@@ -56,3 +56,4 @@ let g:surround_61 = "<%= \r %>"
 
 let g:ragtag_global_maps = 1
 
+dig ,: 8230 " …
