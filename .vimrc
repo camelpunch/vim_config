@@ -54,3 +54,5 @@ helptags ~/.vim/doc
 let g:surround_45 = "<% \r %>"
 let g:surround_61 = "<%= \r %>"
 
+let g:ragtag_global_maps = 1
+
